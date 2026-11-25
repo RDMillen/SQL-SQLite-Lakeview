@@ -41,9 +41,13 @@ files too. See `generator/README.md` for more.
 
 ## Licence
 
-The course, including its code, task text, and database, is licensed under
-the Creative Commons Attribution-ShareAlike 4.0 International licence
-(CC BY-SA 4.0). See `LICENSE`, or
-https://creativecommons.org/licenses/by-sa/4.0/
+| What | Licence |
+|---|---|
+| Code: every `.py` and `.sql` file, including the generator, `run.py`, the hidden tests, and `lakeview.sql` | [GPL-3.0-or-later](LICENSES/GPL-3.0-or-later.txt) |
+| Teaching content: task text, READMEs, and quiz text | [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt) |
+
+See `LICENSE` for the details. `REUSE.toml` records the same split in
+machine-readable form, following the [REUSE](https://reuse.software)
+specification.
 
 Made by Ross ([pfate.xyz](https://pfate.xyz)).

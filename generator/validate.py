@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Ross (pfate.xyz)
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Check every task in the course.
 
 For every edu task:

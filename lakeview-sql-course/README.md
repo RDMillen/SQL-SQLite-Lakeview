@@ -22,6 +22,7 @@ the results. Run `run.py` to see what your SQL does, then press Check.
 
 ## Licence
 
-This course is licensed under the Creative Commons Attribution-ShareAlike
-4.0 International licence (CC BY-SA 4.0). See LICENSE, or
-https://creativecommons.org/licenses/by-sa/4.0/
+The code (every .py and .sql file) is licensed under the GNU General Public
+License v3.0 or later. The teaching content (task text, READMEs, and quiz
+text) is licensed under Creative Commons Attribution-ShareAlike 4.0
+International. See LICENSE for the details.

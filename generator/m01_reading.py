@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Ross (pfate.xyz)
+# SPDX-License-Identifier: GPL-3.0-or-later
 from lib import Lesson, Module, P
 from shared import choice, select_task, theory
 

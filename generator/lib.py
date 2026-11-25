@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Ross (pfate.xyz)
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Course model and writer for the SQL with SQLite course.
 
 Every task is described in Python (see the mNN_*.py files) and written out
@@ -147,6 +149,7 @@ def write_course(root: Path, info: dict, modules: list, additional: dict, state:
     course.append("yaml_version: 6")
     (root / "course-info.yaml").write_text("\n".join(course) + "\n", encoding="utf-8")
     for name, text in additional.items():
+        (root / name).parent.mkdir(parents=True, exist_ok=True)
         (root / name).write_text(text, encoding="utf-8")
 
     for mi, m in enumerate(modules, 1):

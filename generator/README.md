@@ -9,8 +9,7 @@ edit the scripts and rebuild instead of editing the course by hand.
 | `lib.py` | The course model (modules, lessons, tasks, placeholders) and the YAML writer |
 | `shared.py` | `lakeview.sql`, the extra test rows, `run.py`, the hidden test helpers, and the task builders |
 | `m01_reading.py` to `m08_errors.py` | One file per module, holding the task text, solutions, and tests |
-| `build.py` | Writes the course folder, with `README.md`, `LICENSE`, and `.courseignore` |
-| `LICENSE-CC-BY-SA-4.0.txt` | The licence text copied into the course |
+| `build.py` | Writes the course folder, with `README.md`, `.courseignore`, and the licence files from the top of the repository |
 | `validate.py` | Checks every task |
 
 ## Build and check

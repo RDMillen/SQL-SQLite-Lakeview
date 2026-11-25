@@ -16,5 +16,7 @@ content:
 additional_files:
   - name: README.md
   - name: LICENSE
+  - name: LICENSES/GPL-3.0-or-later.txt
+  - name: LICENSES/CC-BY-SA-4.0.txt
   - name: .courseignore
 yaml_version: 6

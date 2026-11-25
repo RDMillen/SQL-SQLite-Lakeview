@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Ross (pfate.xyz)
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Build the SQL with SQLite course folder.
 
 Usage: python build.py [output folder]
@@ -63,13 +65,20 @@ the results. Run `run.py` to see what your SQL does, then press Check.
 
 ## Licence
 
-This course is licensed under the Creative Commons Attribution-ShareAlike
-4.0 International licence (CC BY-SA 4.0). See LICENSE, or
-https://creativecommons.org/licenses/by-sa/4.0/
+The code (every .py and .sql file) is licensed under the GNU General Public
+License v3.0 or later. The teaching content (task text, READMEs, and quiz
+text) is licensed under Creative Commons Attribution-ShareAlike 4.0
+International. See LICENSE for the details.
 """
 
 
-LICENSE = (HERE / "LICENSE-CC-BY-SA-4.0.txt").read_text(encoding="utf-8")
+# The licence files live once, at the top of the repository, and are copied in.
+REPO = HERE.parent
+LICENSE_FILES = {
+    "LICENSE": (REPO / "LICENSE").read_text(encoding="utf-8"),
+    "LICENSES/GPL-3.0-or-later.txt": (REPO / "LICENSES" / "GPL-3.0-or-later.txt").read_text(encoding="utf-8"),
+    "LICENSES/CC-BY-SA-4.0.txt": (REPO / "LICENSES" / "CC-BY-SA-4.0.txt").read_text(encoding="utf-8"),
+}
 
 # Files the plugin should leave out of the course archive. Works like .gitignore.
 COURSE_IGNORE = """\
@@ -90,7 +99,7 @@ def build(out: Path):
         shutil.rmtree(out)
     write_course(out, INFO, MODULES, {
         "README.md": README,
-        "LICENSE": LICENSE,
+        **LICENSE_FILES,
         ".courseignore": COURSE_IGNORE,
     })
     orphans = []

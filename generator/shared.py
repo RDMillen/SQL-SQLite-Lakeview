@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Ross (pfate.xyz)
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Shared files and task builders for the SQL with SQLite course."""
 
 from textwrap import dedent
