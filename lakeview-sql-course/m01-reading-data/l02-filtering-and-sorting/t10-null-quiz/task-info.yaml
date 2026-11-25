@@ -1,0 +1,19 @@
+type: choice
+custom_name: "1.2.10 Quiz: NULL"
+is_multiple_choice: false
+options:
+  - text: "SELECT name FROM users WHERE phone IS NULL;"
+    is_correct: true
+  - text: "SELECT name FROM users WHERE phone = NULL;"
+    is_correct: false
+  - text: "SELECT name FROM users WHERE phone = '';"
+    is_correct: false
+  - text: "SELECT name FROM users WHERE phone = 0;"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. NULL means no value at all, so it is never equal to anything. Which operator checks for a missing value?"
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

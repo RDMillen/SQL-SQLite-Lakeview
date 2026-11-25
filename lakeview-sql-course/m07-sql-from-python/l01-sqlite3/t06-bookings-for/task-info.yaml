@@ -1,0 +1,17 @@
+type: edu
+custom_name: "7.1.6 Joins from Python"
+files:
+  - name: hotel_db.py
+    visible: true
+    placeholders:
+      - offset: 1566
+        length: 328
+        placeholder_text: "pass  # JOIN bookings, users, and rooms, filter by email with ?, return a list of dicts"
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

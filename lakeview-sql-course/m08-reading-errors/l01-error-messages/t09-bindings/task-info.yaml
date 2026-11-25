@@ -1,0 +1,19 @@
+type: choice
+custom_name: "8.1.9 Incorrect number of bindings"
+is_multiple_choice: false
+options:
+  - text: "Add a comma so the values are a tuple: (email,)"
+    is_correct: true
+  - text: "Use an f-string instead of ?"
+    is_correct: false
+  - text: "Add 15 more ? placeholders"
+    is_correct: false
+  - text: "Put quotes around the ?"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. (email) is just a string in brackets, so SQLite treats each of its 16 characters as a separate value."
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

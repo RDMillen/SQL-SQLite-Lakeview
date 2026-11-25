@@ -1,0 +1,8 @@
+type: theory
+custom_name: "7.1.1 SQL from Python"
+files:
+  - name: example.py
+    visible: true
+  - name: lakeview.sql
+    visible: true
+    editable: false

@@ -1,0 +1,11 @@
+custom_name: "8.1 Error messages"
+content:
+  - t01-reading-errors
+  - t02-no-such-column
+  - t03-syntax-error
+  - t04-unique
+  - t05-foreign-key
+  - t06-ambiguous
+  - t07-check
+  - t08-not-null
+  - t09-bindings

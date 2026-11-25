@@ -1,0 +1,20 @@
+type: edu
+custom_name: "2.2.4 Fix the schema"
+files:
+  - name: task.sql
+    visible: true
+    placeholders:
+      - offset: 197
+        length: 187
+        placeholder_text: "CREATE TABLE cleaning_jobs (\n    id INTEGER PRIMARY KEY,\n    room_id INTEGER NOT NULL REFERENCES room(id)\n    job_date TEXT NOT NULL,\n    minutes INTEGER CHECK (minutes > 0)\n);"
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: run.py
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

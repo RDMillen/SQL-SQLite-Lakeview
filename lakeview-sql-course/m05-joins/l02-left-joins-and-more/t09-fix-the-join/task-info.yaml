@@ -1,0 +1,20 @@
+type: edu
+custom_name: "5.2.5 Fix the join"
+files:
+  - name: task.sql
+    visible: true
+    placeholders:
+      - offset: 385
+        length: 134
+        placeholder_text: "SELECT id, name, number\nFROM bookings\nJOIN users ON user_id = users.id\nJOIN rooms ON room_id = rooms.id\nORDER BY id;"
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: run.py
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

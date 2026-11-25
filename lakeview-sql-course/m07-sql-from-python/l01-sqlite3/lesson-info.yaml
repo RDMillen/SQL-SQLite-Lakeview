@@ -1,0 +1,9 @@
+custom_name: "7.1 The sqlite3 module"
+content:
+  - t01-sqlite3
+  - t02-get-rooms
+  - t03-find-room
+  - t04-add-extra
+  - t05-register
+  - t06-bookings-for
+  - t07-safe-query-quiz

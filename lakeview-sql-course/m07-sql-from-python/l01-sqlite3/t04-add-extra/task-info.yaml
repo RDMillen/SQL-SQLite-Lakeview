@@ -1,0 +1,17 @@
+type: edu
+custom_name: "7.1.4 Inserting and committing"
+files:
+  - name: hotel_db.py
+    visible: true
+    placeholders:
+      - offset: 854
+        length: 132
+        placeholder_text: "pass  # INSERT with two ? placeholders, commit, then return cursor.lastrowid"
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,12 @@
+custom_name: "1.2 Filtering and sorting"
+content:
+  - t01-filtering
+  - t02-where
+  - t03-and-or
+  - t04-order-by
+  - t05-like
+  - t06-between-dates
+  - t07-limit
+  - t08-is-null
+  - t09-fix-the-query
+  - t10-null-quiz

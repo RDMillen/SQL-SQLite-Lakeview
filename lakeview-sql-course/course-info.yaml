@@ -1,0 +1,20 @@
+type: marketplace
+title: "SQL with SQLite - The Lakeview Hotel"
+language: English
+summary: "SQL drills on the Lakeview Hotel database: reading data, creating tables, changing data, aggregates, joins, dates and subqueries, SQL from Python, and reading error messages."
+programming_language: Python
+environment: unittest
+content:
+  - m01-reading-data
+  - m02-creating-tables
+  - m03-changing-data
+  - m04-aggregates
+  - m05-joins
+  - m06-dates-and-subqueries
+  - m07-sql-from-python
+  - m08-reading-errors
+additional_files:
+  - name: README.md
+  - name: LICENSE
+  - name: .courseignore
+yaml_version: 6

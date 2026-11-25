@@ -1,0 +1,19 @@
+type: choice
+custom_name: "3.2.3 Quiz: ROLLBACK"
+is_multiple_choice: false
+options:
+  - text: "The four original extras, with Parking still at 8.0"
+    is_correct: true
+  - text: "Five extras, with Parking at 0"
+    is_correct: false
+  - text: "Five extras, with Parking still at 8.0"
+    is_correct: false
+  - text: "No extras at all"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. ROLLBACK undoes every change made since BEGIN."
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

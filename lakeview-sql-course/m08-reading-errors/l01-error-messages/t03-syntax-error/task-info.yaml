@@ -1,0 +1,19 @@
+type: choice
+custom_name: "8.1.3 syntax error"
+is_multiple_choice: false
+options:
+  - text: "Remove the comma after room_type"
+    is_correct: true
+  - text: "Write FROM in lower case"
+    is_correct: false
+  - text: "Add a WHERE clause"
+    is_correct: false
+  - text: "Put rooms in quotes"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. The problem is just before the word in quotes. What comes straight before FROM?"
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

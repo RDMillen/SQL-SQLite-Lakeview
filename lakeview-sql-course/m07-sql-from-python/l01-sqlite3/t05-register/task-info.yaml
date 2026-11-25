@@ -1,0 +1,17 @@
+type: edu
+custom_name: "7.1.5 Catching IntegrityError"
+files:
+  - name: hotel_db.py
+    visible: true
+    placeholders:
+      - offset: 1113
+        length: 298
+        placeholder_text: "pass  # Try the INSERT and commit. Catch sqlite3.IntegrityError."
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

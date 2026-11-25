@@ -1,0 +1,20 @@
+type: edu
+custom_name: "1.1.2 Your first SELECT"
+files:
+  - name: task.sql
+    visible: true
+    placeholders:
+      - offset: 216
+        length: 8
+        placeholder_text: "table_name"
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: run.py
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

@@ -1,0 +1,19 @@
+type: choice
+custom_name: "5.2.6 Quiz: INNER or LEFT"
+is_multiple_choice: false
+options:
+  - text: "5, because the inner join drops Eileen"
+    is_correct: true
+  - text: "6, with Eileen shown as 0"
+    is_correct: false
+  - text: "6, with Eileen shown as 1"
+    is_correct: false
+  - text: "10, one for each booking"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. JOIN on its own is an inner join. What happens to a guest with no matching booking?"
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

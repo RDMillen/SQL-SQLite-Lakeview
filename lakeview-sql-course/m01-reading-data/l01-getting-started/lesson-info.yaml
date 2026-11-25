@@ -1,0 +1,5 @@
+custom_name: "1.1 Getting started"
+content:
+  - t01-welcome
+  - t02-first-select
+  - t03-choosing-columns

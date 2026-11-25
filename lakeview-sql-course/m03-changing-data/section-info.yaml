@@ -1,0 +1,4 @@
+custom_name: "Module 3: Changing Data"
+content:
+  - l01-insert-update-delete
+  - l02-transactions

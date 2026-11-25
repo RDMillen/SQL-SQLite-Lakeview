@@ -1,0 +1,19 @@
+type: choice
+custom_name: "8.1.4 UNIQUE constraint failed"
+is_multiple_choice: false
+options:
+  - text: "Nothing is wrong with the SQL: this email is already registered, so the app should tell the user"
+    is_correct: true
+  - text: "Remove UNIQUE from the email column"
+    is_correct: false
+  - text: "Leave out the id column"
+    is_correct: false
+  - text: "Use UPDATE instead of INSERT"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. The rule is doing its job. What should the app do when someone registers an email that is already used?"
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

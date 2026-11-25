@@ -1,0 +1,17 @@
+type: edu
+custom_name: "7.1.2 Fetching rows"
+files:
+  - name: hotel_db.py
+    visible: true
+    placeholders:
+      - offset: 353
+        length: 116
+        placeholder_text: "pass  # Run the query and return fetchall()"
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

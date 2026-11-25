@@ -1,0 +1,7 @@
+custom_name: "6.2 Subqueries"
+content:
+  - t01-subqueries
+  - t02-above-average
+  - t03-in-subquery
+  - t04-free-rooms
+  - t05-back-to-back-quiz

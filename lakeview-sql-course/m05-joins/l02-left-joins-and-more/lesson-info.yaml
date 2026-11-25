@@ -1,0 +1,8 @@
+custom_name: "5.2 LEFT JOIN and bigger joins"
+content:
+  - t05-never-booked
+  - t06-including-zero
+  - t07-four-tables
+  - t08-join-and-group
+  - t09-fix-the-join
+  - t10-inner-or-left

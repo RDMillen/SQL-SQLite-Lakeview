@@ -1,0 +1,9 @@
+custom_name: "3.1 INSERT, UPDATE, and DELETE"
+content:
+  - t01-changing-data
+  - t02-insert-a-row
+  - t03-insert-several-rows
+  - t04-update
+  - t05-update-with-a-calculation
+  - t06-delete-in-the-right-order
+  - t07-fix-the-update

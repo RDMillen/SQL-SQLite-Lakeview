@@ -1,0 +1,19 @@
+type: choice
+custom_name: "8.1.5 FOREIGN KEY constraint failed"
+is_multiple_choice: false
+options:
+  - text: "Delete the booking_extras rows for booking 1 first"
+    is_correct: true
+  - text: "Turn foreign keys off and try again"
+    is_correct: false
+  - text: "Delete user 1 first"
+    is_correct: false
+  - text: "Add LIMIT 1 to the DELETE"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. Some other table still has rows pointing at booking 1. Which one?"
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

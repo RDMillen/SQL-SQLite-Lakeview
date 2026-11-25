@@ -1,0 +1,19 @@
+type: choice
+custom_name: "4.1.8 Quiz: WHERE or HAVING"
+is_multiple_choice: false
+options:
+  - text: "SELECT room_type FROM rooms GROUP BY room_type HAVING AVG(price_per_night) > 150;"
+    is_correct: true
+  - text: "SELECT room_type FROM rooms WHERE AVG(price_per_night) > 150 GROUP BY room_type;"
+    is_correct: false
+  - text: "SELECT room_type FROM rooms WHERE price_per_night > 150;"
+    is_correct: false
+  - text: "SELECT room_type FROM rooms HAVING price_per_night > 150 GROUP BY room_type;"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. WHERE works on single rows before grouping, so it cannot use AVG. Which part filters whole groups?"
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

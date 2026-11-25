@@ -1,0 +1,11 @@
+type: theory
+custom_name: "6.2.1 Subqueries"
+files:
+  - name: examples.sql
+    visible: true
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: run.py
+    visible: true
+    editable: false

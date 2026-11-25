@@ -1,0 +1,19 @@
+type: choice
+custom_name: "6.2.5 Quiz: back-to-back stays"
+is_multiple_choice: true
+options:
+  - text: "2026-12-18 to 2026-12-21"
+    is_correct: true
+  - text: "2026-12-27 to 2026-12-29"
+    is_correct: false
+  - text: "2026-12-15 to 2026-12-20"
+    is_correct: false
+  - text: "2026-12-22 to 2026-12-23"
+    is_correct: true
+message_correct: "Correct."
+message_incorrect: "Not quite. A stay clashes when new_in < existing_out and new_out > existing_in. Arriving on the day someone leaves is fine."
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

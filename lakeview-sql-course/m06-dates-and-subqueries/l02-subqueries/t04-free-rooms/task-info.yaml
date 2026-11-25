@@ -1,0 +1,20 @@
+type: edu
+custom_name: "6.2.4 Rooms free on these dates"
+files:
+  - name: task.sql
+    visible: true
+    placeholders:
+      - offset: 346
+        length: 229
+        placeholder_text: "-- Write your query here"
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: run.py
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

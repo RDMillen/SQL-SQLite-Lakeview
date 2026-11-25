@@ -1,0 +1,19 @@
+type: choice
+custom_name: "8.1.6 ambiguous column name"
+is_multiple_choice: false
+options:
+  - text: "Say which table's id you mean, for example bookings.id"
+    is_correct: true
+  - text: "Rename the id column in one of the tables"
+    is_correct: false
+  - text: "Use LEFT JOIN instead of JOIN"
+    is_correct: false
+  - text: "Remove the ON part"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. Both tables have a column called id. How do you tell SQLite which one you want?"
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

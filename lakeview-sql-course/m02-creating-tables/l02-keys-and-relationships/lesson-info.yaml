@@ -1,0 +1,8 @@
+custom_name: "2.2 Keys and relationships"
+content:
+  - t01-foreign-keys
+  - t02-reviews-table
+  - t03-junction-table
+  - t04-fix-the-schema
+  - t05-alter-table
+  - t06-foreign-key-quiz

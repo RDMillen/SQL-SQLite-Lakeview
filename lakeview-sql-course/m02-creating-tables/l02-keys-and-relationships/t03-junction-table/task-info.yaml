@@ -1,0 +1,20 @@
+type: edu
+custom_name: "2.2.3 A many-to-many relationship"
+files:
+  - name: task.sql
+    visible: true
+    placeholders:
+      - offset: 167
+        length: 263
+        placeholder_text: "-- Write your SQL here"
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: run.py
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

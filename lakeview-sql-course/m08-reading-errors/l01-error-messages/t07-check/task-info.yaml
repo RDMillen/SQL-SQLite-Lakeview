@@ -1,0 +1,19 @@
+type: choice
+custom_name: "8.1.7 CHECK constraint failed"
+is_multiple_choice: false
+options:
+  - text: "Give the room a price above 0"
+    is_correct: true
+  - text: "Leave out the available column"
+    is_correct: false
+  - text: "Change the number to 104"
+    is_correct: false
+  - text: "Put 0 in single quotes"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. The rule after the colon is the one that was broken."
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

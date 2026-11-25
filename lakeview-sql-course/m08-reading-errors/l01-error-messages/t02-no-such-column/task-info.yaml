@@ -1,0 +1,19 @@
+type: choice
+custom_name: "8.1.2 no such column"
+is_multiple_choice: false
+options:
+  - text: "Spell the column correctly: name"
+    is_correct: true
+  - text: "Create a column called nmae in users"
+    is_correct: false
+  - text: "Put nmae in single quotes"
+    is_correct: false
+  - text: "Turn on foreign keys"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. Compare the column in the message with the columns in the users table."
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

@@ -1,0 +1,6 @@
+custom_name: "2.1 Tables and constraints"
+content:
+  - t01-create-table
+  - t02-staff-table
+  - t03-check-and-default
+  - t04-types-quiz

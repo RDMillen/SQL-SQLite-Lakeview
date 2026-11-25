@@ -1,0 +1,11 @@
+type: theory
+custom_name: "2.2.1 Foreign keys"
+files:
+  - name: examples.sql
+    visible: true
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: run.py
+    visible: true
+    editable: false

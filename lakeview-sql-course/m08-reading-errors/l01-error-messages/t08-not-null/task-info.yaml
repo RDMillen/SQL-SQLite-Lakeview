@@ -1,0 +1,19 @@
+type: choice
+custom_name: "8.1.8 NOT NULL constraint failed"
+is_multiple_choice: false
+options:
+  - text: "Include the email column and give it a value"
+    is_correct: true
+  - text: "Add NULL to the end of VALUES"
+    is_correct: false
+  - text: "Remove the password_hash column"
+    is_correct: false
+  - text: "Make email a primary key"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. The message names the column that was left without a value."
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

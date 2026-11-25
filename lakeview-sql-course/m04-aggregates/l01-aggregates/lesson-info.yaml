@@ -1,0 +1,10 @@
+custom_name: "4.1 Aggregates and GROUP BY"
+content:
+  - t01-aggregates
+  - t02-count
+  - t03-sum
+  - t04-avg-and-round
+  - t05-group-by
+  - t06-spend-per-guest
+  - t07-having
+  - t08-where-or-having

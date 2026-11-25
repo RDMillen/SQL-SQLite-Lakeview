@@ -1,0 +1,19 @@
+type: choice
+custom_name: "2.2.6 Quiz: the missing error"
+is_multiple_choice: false
+options:
+  - text: "The app never ran PRAGMA foreign_keys = ON on its connection."
+    is_correct: true
+  - text: "user_id should have been declared as TEXT."
+    is_correct: false
+  - text: "Foreign keys only work on columns called id."
+    is_correct: false
+  - text: "The booking needs a CHECK constraint as well."
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. SQLite does not check foreign keys unless it is told to, once for each connection."
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

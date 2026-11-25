@@ -1,0 +1,19 @@
+type: choice
+custom_name: "7.1.7 Quiz: which query is safe?"
+is_multiple_choice: false
+options:
+  - text: "conn.execute(\"SELECT * FROM users WHERE email = ?\", (email,))"
+    is_correct: true
+  - text: "conn.execute(f\"SELECT * FROM users WHERE email = '{email}'\")"
+    is_correct: false
+  - text: "conn.execute(\"SELECT * FROM users WHERE email = '\" + email + \"'\")"
+    is_correct: false
+  - text: "conn.execute(\"SELECT * FROM users WHERE email = '%s'\" % email)"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. Three of these paste the user's text straight into the SQL. Only one passes it to SQLite separately."
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

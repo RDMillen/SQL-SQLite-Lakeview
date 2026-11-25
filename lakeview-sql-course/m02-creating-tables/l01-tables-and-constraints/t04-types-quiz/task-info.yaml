@@ -1,0 +1,19 @@
+type: choice
+custom_name: "2.1.4 Quiz: storing dates"
+is_multiple_choice: false
+options:
+  - text: "arrival TEXT NOT NULL, storing values like '2026-11-04'"
+    is_correct: true
+  - text: "arrival TEXT NOT NULL, storing values like '04/11/2026'"
+    is_correct: false
+  - text: "arrival INTEGER NOT NULL, storing values like 4112026"
+    is_correct: false
+  - text: "arrival DATE NOT NULL, because SQLite has a date type"
+    is_correct: false
+message_correct: "Correct."
+message_incorrect: "Not quite. SQLite has no real date type, and dates need to sort in the right order. Which form sorts by year, then month, then day?"
+local_check: true
+files:
+  - name: lakeview.sql
+    visible: true
+    editable: false

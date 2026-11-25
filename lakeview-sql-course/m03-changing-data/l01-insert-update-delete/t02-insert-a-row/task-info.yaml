@@ -1,0 +1,20 @@
+type: edu
+custom_name: "3.1.2 Adding a guest"
+files:
+  - name: task.sql
+    visible: true
+    placeholders:
+      - offset: 107
+        length: 98
+        placeholder_text: "-- Write your SQL here"
+  - name: lakeview.sql
+    visible: true
+    editable: false
+  - name: run.py
+    visible: true
+    editable: false
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

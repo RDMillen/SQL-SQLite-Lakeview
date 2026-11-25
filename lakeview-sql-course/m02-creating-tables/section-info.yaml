@@ -1,0 +1,4 @@
+custom_name: "Module 2: Creating Tables"
+content:
+  - l01-tables-and-constraints
+  - l02-keys-and-relationships
