@@ -49,5 +49,3 @@ files too. See `generator/README.md` for more.
 See `LICENSE` for the details. `REUSE.toml` records the same split in
 machine-readable form, following the [REUSE](https://reuse.software)
 specification.
-
-Made by Ross ([pfate.xyz](https://pfate.xyz)).
